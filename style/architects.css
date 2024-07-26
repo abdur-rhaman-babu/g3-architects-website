@@ -33,6 +33,10 @@ font-weight: 700;
 line-height: 3.2rem;
 }
 
+section{
+    max-width:1440px;
+    margin:5.5rem auto;
+}
 /* ------------------header-section------------------- */
 /* --------------------navbar-area------------------- */
 .header-section{
@@ -40,9 +44,13 @@ line-height: 3.2rem;
 }
 .navbar, .banner-image{
     justify-content:space-between;
-    padding:2rem 10%;
-    max-width:1440px;
+    padding:2rem 0;
+    max-width:1920px;
     margin:0 auto;
+}
+
+.navbar{
+    padding:2rem 3%;
 }
 
 .nav-links{
@@ -92,4 +100,24 @@ margin:1.5rem 0;
 
 .banner-image img{
     width:100%;
+}
+
+/* -----------------------feature-section--------------------------- */
+.feature-section{
+    gap:4.5rem;
+    max-width:1430px;
+}
+
+.feature-image{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1rem;
+}
+
+.feature{
+    color:#FF900E;
+}
+
+.feature-text .quick{
+    color:#727272;
 }
