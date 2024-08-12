@@ -122,6 +122,10 @@ margin:1.5rem 0;
     color:#727272;
 }
 
+.feature-details{
+    margin-top:2rem;
+}
+
 /* -------------love-section---------------------- */
 .love-section{
     align-items:start;
@@ -183,4 +187,43 @@ line-height: 70px;
 
 .love-text{
     margin-top:2.5rem;
+}
+
+/* ---------------------facts-section----------------------- */
+.facts-section{
+    margin-top:8rem;
+}
+.facts-card{
+    padding:3rem 2.5rem;
+    border-radius:.5rem;
+    border:2px solid #FF900E;
+    display:inline-block;
+    text-align:center;
+}
+
+.card-number{
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.fact-card-title{
+    color: rgb(114, 114, 114);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height:1.5rem;
+}
+
+.facts-container{
+    justify-content:center;
+    gap:8rem;
+    margin:6rem 0 11rem 0;
+}
+
+.facts-title{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin-bottom:2rem;
 }
