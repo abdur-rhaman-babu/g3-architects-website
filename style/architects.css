@@ -221,9 +221,42 @@ line-height: 70px;
     margin:6rem 0 11rem 0;
 }
 
-.facts-title{
+.facts-title, .spon-title{
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.5rem;
     margin-bottom:2rem;
+}
+
+/* ---------sopnspors-section------------------ */
+.sponspors-container{
+    justify-content:center;
+    gap:12rem;
+    margin-top:4rem;
+}
+
+.sponspors-container > div{
+    border:1px dashed #727272;
+}
+
+.sponspors-container > div img{
+    color: #727272;
+}
+
+.sponspors-section > div{
+    text-align: center;
+}
+
+/* ------------------all-right-section----------------- */
+.all-right-section{
+    background:#FFF4E7;
+    padding:3rem;
+    text-align:center;
+}
+
+.all-right-section p{
+    color: rgb(66, 66, 66);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
